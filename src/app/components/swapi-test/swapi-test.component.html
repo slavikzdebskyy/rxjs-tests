@@ -1,0 +1,21 @@
+<p>
+  swapi-test works!
+</p>
+
+<h3>observable</h3>
+<ul>
+  <li *ngFor="let item of human">
+    {{item.name}}
+    <p>homeworld - {{item.homeworld.name}}</p>
+
+  </li>
+</ul>
+
+<h3>promised</h3>
+<ul>
+  <li *ngFor="let item of promised">
+    {{item.name}}
+    <p>homeworld - {{item.homeworld.name}}</p>
+
+  </li>
+</ul>
